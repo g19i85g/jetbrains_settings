@@ -1,0 +1,105 @@
+<templateSet group="PHP">
+  <template name="fu" value="function $NAME$($PARAMETERS$){&#10;    $END$&#10;}" description="function" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if($PARAMETERS$){&#10;    $END$&#10;}" description="if IP" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMETERS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="in" value="include (&quot;$END$&quot;);" description="'include' statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ino" value="include_once (&quot;$END$&quot;);" description="'include_once' statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="sw" value="switch ($PARAMETER$) {&#10;    case $END$:&#10;        break;&#10;    case :&#10;        break;&#10;    default:&#10;        break;&#10;}" description="switch" toReformat="true" toShortenFQNames="true">
+    <variable name="PARAMETER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="for" value="for ($INDEX$ = 0; $INDEX$ &lt; count($ARRAY$); $INDEX$++) {&#10;    $END$&#10;}" description="for" toReformat="false" toShortenFQNames="true">
+    <variable name="ARRAY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="INDEX" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="cas" value="case $PARAMETER$:&#10;    $END$&#10;    break;" description="switch case" toReformat="false" toShortenFQNames="true">
+    <variable name="PARAMETER" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="rq" value="require &quot;$END$&quot;;" description="'require' statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="rqo" value="require_once &quot;$END$&quot;;" description="'require_once' statement" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ifip" value="//######## DEBUG STARD ###############################################################################################&#10;if($_SERVER['REMOTE_ADDR'] === '217.5.171.210'){&#10;    $SELECTION$$END$&#10;}&#10;//######## DEBUG END   ###############################################################################################&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="try" value="try{&#10;    $END$&#10;}catch(Exception $e){&#10;&#10;}" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="reta" value="if (false === $res) {&#10;&#10;    return [];&#10;}&#10;$END$" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="deb" value="/*&#10;        88888888ba,   88888888888 88888888ba  88        88   ,ad8888ba,&#10;        88      `&quot;8b  88          88      &quot;8b 88        88  d8&quot;'    `&quot;8b&#10;        88        `8b 88          88      ,8P 88        88 d8'&#10;        88         88 88aaaaa     88aaaaaa8P' 88        88 88&#10;        88         88 88&quot;&quot;&quot;&quot;&quot;     88&quot;&quot;&quot;&quot;&quot;&quot;8b, 88        88 88      88888&#10;        88         8P 88          88      `8b 88        88 Y8,        88&#10;        88      .a8P  88          88      a8P Y8a.    .a8P  Y8a.    .a88&#10;        88888888Y&quot;'   88888888888 88888888P&quot;   `&quot;Y8888Y&quot;'    `&quot;Y88888P&quot;&#10;*/&#10;//######## DEBUG STARD ###############################################################################################&#10;//@fixme remove me&#10;//@todo remove me&#10;if (isset($_COOKIE['debug']) &amp;&amp; $_COOKIE['debug'] === 'on') {&#10;    echo __FILE__ . ':' . __LINE__ . &quot;\n&lt;br /&gt;\n&quot;;&#10;    $SELECTION$$END$&#10;}&#10;//######## DEBUG END   ###############################################################################################" description="debug" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="do" value="do {&#10;    $END$&#10;} while($CONDITION$);" description="" toReformat="true" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="isn" value="$VARIABLE_NAME$ = isset($VARIABLE_NAME$) ? $VARIABLE_NAME$ : null;$END$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VARIABLE_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ft" value="if (false === $VARIABLE$) {&#10;    throw new $END$;&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="VARIABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="s" value="$s = microtime(true);&#10;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+  <template name="e" value="$e = microtime(true) - $s;" description="" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP Expression" value="true" />
+      <option name="PHP Statement" value="true" />
+    </context>
+  </template>
+</templateSet>
