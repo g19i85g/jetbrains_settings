@@ -1,1 +1,0 @@
-<?PHP require("va_includes/".basename($_SERVER["PHP_SELF"]).".inc");
