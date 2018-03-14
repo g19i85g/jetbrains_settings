@@ -1,0 +1,38 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="619ff7fd-36cc-4416-9347-1c621ce7cd70" name="dev-web-wheezy" url="http://172.28.6.64">
+        <fileTransfer host="172.28.6.64" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/rump" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions controlEncoding="ISO-8859-15" dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="d711a2a1-b43f-4f00-846a-10d74bf1d197" name="dev-web-wheezy-gaeb-domain" url="http://172.28.6.64">
+        <fileTransfer host="172.28.6.64" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="35c5c7c3-fdff-4b1b-9509-10f342243675" name="branch/pdf-viewer" url="https://rump-b.wheezy.rib-software.com">
+        <fileTransfer host="172.28.6.64" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/rump/arribanet/versions/pdf-viewer" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions controlEncoding="ISO-8859-15" dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="7fa9f169-5c3c-470f-8096-3517aec6bdd5" name="branch/4.21" url="https://rump-b.wheezy.rib-software.com">
+        <fileTransfer host="172.28.6.64" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/home/rump/arribanet/versions/4.21" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions controlEncoding="ISO-8859-15" dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>
