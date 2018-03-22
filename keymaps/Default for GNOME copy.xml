@@ -12,6 +12,10 @@
   <action id="GotoPreviousBookmark">
     <keyboard-shortcut first-keystroke="shift ctrl dead_circumflex" />
   </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
