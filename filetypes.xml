@@ -15,7 +15,6 @@
       <mapping pattern="gaebsql-postgres" type="Bash" />
       <mapping pattern="composer.lock" type="JSON" />
       <removed_mapping ext="pdf" type="Native" />
-      <mapping ext="pdf" type="PHP" />
       <mapping ext="php7" type="PHP" />
       <mapping pattern=".project" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
