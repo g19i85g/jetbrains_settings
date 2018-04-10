@@ -2,62 +2,60 @@
   <component name="FileTypeManager" version="17">
     <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;" />
     <extensionMap>
-      <removed_mapping ext="html" type="HTML" />
       <mapping pattern="composer.lock" type="JSON" />
       <removed_mapping ext="pdf" type="Native" />
-      <mapping ext="html" type="PHP" />
       <mapping ext="php7" type="PHP" />
-      <mapping pattern="test" type="PLAIN_TEXT" />
-      <mapping pattern="passwords" type="PLAIN_TEXT" />
-      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
-      <mapping pattern="dfdsf" type="PLAIN_TEXT" />
-      <mapping pattern="dd" type="PLAIN_TEXT" />
-      <mapping pattern=".UploadHandler.php.swp" type="PLAIN_TEXT" />
-      <mapping pattern="fdfmergeapp" type="PLAIN_TEXT" />
-      <mapping pattern=".deploy-excludes" type="PLAIN_TEXT" />
-      <mapping pattern="temp1" type="PLAIN_TEXT" />
-      <mapping pattern="d8x2xml" type="PLAIN_TEXT" />
       <mapping pattern=".project" type="PLAIN_TEXT" />
-      <mapping pattern="ee" type="PLAIN_TEXT" />
-      <mapping pattern="ev_gaeb-sql-log-Kl0a2Z" type="PLAIN_TEXT" />
-      <mapping pattern="ev_gaeb-sql-log-gpEBXM" type="PLAIN_TEXT" />
-      <mapping pattern="gaeb-log" type="PLAIN_TEXT" />
-      <mapping pattern="fff" type="PLAIN_TEXT" />
+      <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern=".UploadHandler.php.swp" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping ext="z" type="PLAIN_TEXT" />
-      <mapping ext="csv" type="PLAIN_TEXT" />
-      <mapping ext="r936" type="PLAIN_TEXT" />
-      <mapping ext="crt" type="PLAIN_TEXT" />
+      <mapping pattern=".deploy-excludes" type="PLAIN_TEXT" />
+      <mapping pattern="d8x2xml" type="PLAIN_TEXT" />
+      <mapping pattern="ev_gaeb-sql-log-gpEBXM" type="PLAIN_TEXT" />
+      <mapping pattern="ee" type="PLAIN_TEXT" />
+      <mapping pattern="passwords" type="PLAIN_TEXT" />
+      <mapping pattern="temp1" type="PLAIN_TEXT" />
+      <mapping pattern="dd" type="PLAIN_TEXT" />
+      <mapping pattern="gaeb-log" type="PLAIN_TEXT" />
+      <mapping pattern="dfdsf" type="PLAIN_TEXT" />
+      <mapping pattern="ev_gaeb-sql-log-Kl0a2Z" type="PLAIN_TEXT" />
+      <mapping pattern="LICENSE" type="PLAIN_TEXT" />
+      <mapping pattern="fff" type="PLAIN_TEXT" />
+      <mapping pattern="fdfmergeapp" type="PLAIN_TEXT" />
       <mapping ext="tex" type="PLAIN_TEXT" />
-      <mapping ext="php_copy" type="PLAIN_TEXT" />
-      <mapping ext="sh___jb_bak___" type="PLAIN_TEXT" />
-      <mapping ext="dir" type="PLAIN_TEXT" />
-      <mapping ext="test" type="PLAIN_TEXT" />
-      <mapping ext="lock" type="PLAIN_TEXT" />
-      <mapping ext="orig" type="PLAIN_TEXT" />
-      <mapping ext="bak" type="PLAIN_TEXT" />
-      <mapping ext="_app_frontend_web_index_php" type="PLAIN_TEXT" />
-      <mapping ext="bout" type="PLAIN_TEXT" />
-      <mapping ext="pag" type="PLAIN_TEXT" />
-      <mapping ext="config" type="PLAIN_TEXT" />
-      <mapping ext="types" type="PLAIN_TEXT" />
-      <mapping ext="schema" type="PLAIN_TEXT" />
-      <mapping ext="list" type="PLAIN_TEXT" />
-      <mapping ext="dat" type="PLAIN_TEXT" />
-      <mapping ext="data" type="PLAIN_TEXT" />
-      <mapping ext="p83" type="PLAIN_TEXT" />
-      <mapping ext="pid" type="PLAIN_TEXT" />
-      <mapping ext="properties" type="PLAIN_TEXT" />
-      <mapping ext="in" type="PLAIN_TEXT" />
-      <mapping ext="old" type="PLAIN_TEXT" />
-      <mapping ext="pfx" type="PLAIN_TEXT" />
       <mapping ext="gz" type="PLAIN_TEXT" />
-      <mapping ext="eml" type="PLAIN_TEXT" />
-      <mapping ext="prej" type="PLAIN_TEXT" />
-      <mapping ext="heap" type="PLAIN_TEXT" />
-      <mapping ext="back" type="PLAIN_TEXT" />
-      <mapping ext="de" type="PLAIN_TEXT" />
       <mapping ext="22" type="PLAIN_TEXT" />
+      <mapping ext="types" type="PLAIN_TEXT" />
+      <mapping ext="pag" type="PLAIN_TEXT" />
+      <mapping ext="_app_frontend_web_index_php" type="PLAIN_TEXT" />
+      <mapping ext="prej" type="PLAIN_TEXT" />
+      <mapping ext="php_copy" type="PLAIN_TEXT" />
+      <mapping ext="de" type="PLAIN_TEXT" />
+      <mapping ext="old" type="PLAIN_TEXT" />
+      <mapping ext="bak" type="PLAIN_TEXT" />
+      <mapping ext="dir" type="PLAIN_TEXT" />
+      <mapping ext="properties" type="PLAIN_TEXT" />
+      <mapping ext="lock" type="PLAIN_TEXT" />
+      <mapping ext="back" type="PLAIN_TEXT" />
+      <mapping ext="config" type="PLAIN_TEXT" />
+      <mapping ext="r936" type="PLAIN_TEXT" />
+      <mapping ext="orig" type="PLAIN_TEXT" />
+      <mapping ext="eml" type="PLAIN_TEXT" />
+      <mapping ext="list" type="PLAIN_TEXT" />
+      <mapping ext="p83" type="PLAIN_TEXT" />
+      <mapping ext="csv" type="PLAIN_TEXT" />
+      <mapping ext="bout" type="PLAIN_TEXT" />
+      <mapping ext="crt" type="PLAIN_TEXT" />
+      <mapping ext="heap" type="PLAIN_TEXT" />
+      <mapping ext="pid" type="PLAIN_TEXT" />
+      <mapping ext="z" type="PLAIN_TEXT" />
+      <mapping ext="schema" type="PLAIN_TEXT" />
+      <mapping ext="dat" type="PLAIN_TEXT" />
+      <mapping ext="pfx" type="PLAIN_TEXT" />
+      <mapping ext="sh___jb_bak___" type="PLAIN_TEXT" />
+      <mapping ext="test" type="PLAIN_TEXT" />
+      <mapping ext="in" type="PLAIN_TEXT" />
+      <mapping ext="data" type="PLAIN_TEXT" />
       <removed_mapping pattern=".gitmodules" type="PLAIN_TEXT" />
       <removed_mapping ext="htaccess" type="PLAIN_TEXT" />
       <mapping pattern="essr2" type="XML" />
