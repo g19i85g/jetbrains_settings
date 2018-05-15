@@ -1,26 +1,16 @@
 <application>
-  <component name="MessDetector">
-    <phpmd_settings>
-      <MessDetectorConfiguration />
-    </phpmd_settings>
-  </component>
-  <component name="PhpAutoImport" auto_import_file_scope="true" />
-  <component name="PhpCodeSniffer">
-    <phpcs_settings>
-      <PhpCSConfiguration />
-    </phpcs_settings>
-  </component>
+  <component name="PhpAutoImport" auto_import_from_global_scope="true" auto_import_file_scope="true" />
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter home="ssh://rump@172.28.6.64:22/usr/bin/php" id="344c4bf1-6351-43ad-a972-5c3ee160627f" name="Remote PHP 5.4 Wheezy" debugger_id="php.debugger.XDebug">
-        <remote_data HOST="172.28.6.64" PORT="22" ANONYMOUS="false" USERNAME="rump" PASSWORD="" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/rump/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+        <remote_data HOST="172.28.6.64" PORT="22" USERNAME="rump" PRIVATE_KEY_FILE="" USE_KEY_PAIR="false" USE_AUTH_AGENT="false" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/rump/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="Remote PHP 5.4 Wheezy">
-        <phpinfo binary_type="PHP" php_cli="/usr/bin/php5" path_separator=":" remote_host="172.27.1.7 52802 22" version="5.4.45-0+deb7u5">
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php5" path_separator=":" remote_host="172.27.1.7" version="5.4.45-0+deb7u5">
           <additional_php_ini>/etc/php5/cli/conf.d/10-pdo.ini, /etc/php5/cli/conf.d/20-curl.ini, /etc/php5/cli/conf.d/20-gd.ini, /etc/php5/cli/conf.d/20-intl.ini, /etc/php5/cli/conf.d/20-mcrypt.ini, /etc/php5/cli/conf.d/20-memcache.ini, /etc/php5/cli/conf.d/20-mysql.ini, /etc/php5/cli/conf.d/20-mysqli.ini, /etc/php5/cli/conf.d/20-pdo_mysql.ini, /etc/php5/cli/conf.d/20-pdo_pgsql.ini, /etc/php5/cli/conf.d/20-pdo_sqlite.ini, /etc/php5/cli/conf.d/20-pgsql.ini, /etc/php5/cli/conf.d/20-recode.ini, /etc/php5/cli/conf.d/20-sqlite3.ini, /etc/php5/cli/conf.d/20-xdebug.ini, /etc/php5/cli/conf.d/20-xsl.ini, /etc/php5/cli/conf.d/oci.ini</additional_php_ini>
           <configuration_file>/etc/php5/cli/php.ini</configuration_file>
           <configuration_options>
