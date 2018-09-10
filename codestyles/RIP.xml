@@ -72,6 +72,7 @@
     <option name="FORCE_SHORT_DECLARATION_ARRAY_STYLE" value="true" />
     <option name="SPACE_BEFORE_COLON_IN_RETURN_TYPE" value="true" />
     <option name="PHPDOC_USE_FQCN" value="true" />
+    <option name="PLACE_PARENS_FOR_CONSTRUCTOR" value="1" />
   </PHPCodeStyleSettings>
   <XML>
     <option name="XML_ATTRIBUTE_WRAP" value="2" />
@@ -116,6 +117,7 @@
     <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
     <option name="SPACE_BEFORE_METHOD_PARENTHESES" value="true" />
     <option name="CALL_PARAMETERS_WRAP" value="5" />
+    <option name="PREFER_PARAMETERS_WRAP" value="true" />
     <option name="CALL_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
     <option name="CALL_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
     <option name="METHOD_PARAMETERS_WRAP" value="5" />
@@ -148,12 +150,15 @@
     <option name="SPECIAL_ELSE_IF_TREATMENT" value="true" />
     <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
     <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
+    <option name="ALIGN_MULTILINE_PARAMETERS_IN_CALLS" value="true" />
     <option name="ALIGN_MULTILINE_BINARY_OPERATION" value="true" />
     <option name="ALIGN_MULTILINE_TERNARY_OPERATION" value="true" />
     <option name="ALIGN_MULTILINE_EXTENDS_LIST" value="true" />
     <option name="ALIGN_MULTILINE_ARRAY_INITIALIZER_EXPRESSION" value="true" />
     <option name="SPACE_BEFORE_CATCH_LBRACE" value="false" />
-    <option name="CALL_PARAMETERS_WRAP" value="1" />
+    <option name="CALL_PARAMETERS_WRAP" value="5" />
+    <option name="CALL_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
+    <option name="CALL_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
     <option name="METHOD_PARAMETERS_WRAP" value="5" />
     <option name="METHOD_PARAMETERS_LPAREN_ON_NEXT_LINE" value="true" />
     <option name="METHOD_PARAMETERS_RPAREN_ON_NEXT_LINE" value="true" />
